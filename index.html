@@ -1,0 +1,544 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/home.css">
+	<title>SG Money Lender</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<!-- Google Font Link-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+	<!-- Bootstrap Icons Link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<!-- Embed Font Awesome Icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Link for Favicon -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+	<a name="top"></a>
+	<div id="header-move">
+		<div id="logo" onclick="location.href='index.html';"><img src="img/SGML-logo.jpg" alt="SG Money Lender Logo">
+		</div>
+		<div>
+			<ul id="menu">
+                <li><a href="index.html" class="active">Home</a>&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Loans</a>
+                    <div class="dropdown-content">
+                        <a href="#"><p>Personal Loan</p></a>
+                        <a href="#"><p>Business Loan</p></a>
+                        <a href="#"><p>Foreigner Loan</p></a>
+                        <a href="#"><p>Education Loan</p></a>
+                        <a href="#"><p>Medical Loan</p></a>
+                        <a href="#"><p>Vacation Loan</p></a>
+                        <a href="#"><p>Renovation Loan</p></a>
+                    </div>
+                </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="#">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="#">Articles</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><button class="apply-loan" onclick="location.href='applyloan.html';">Apply Now</button></li>
+			</ul>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div id="header"></div>
+	<section id="banner">
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/homebg-one.jpg" class="d-block w-100" alt="page 1">
+					<div id="caption-bg-one" class="carousel-caption d-none d-md-block">
+						<div class="title">
+							<h1><strong>
+									<span>Get your loan</br></span>
+									<span class="blue">processed in 3 days!</span>
+								</strong></h1>
+						</div>
+						<h3>
+							<p id="slide-one-content"></br>Tired of the long process of getting loans in banks? Get your
+								loan approved in 3 days with us!
+						</h3>
+						<button class="apply-loan-carousel" onclick="location.href='applyloan.html';">Apply Now</button>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/homebg-two.jpg" class="d-block w-100" alt="page 2">
+					<div id="caption-bg-two" class="carousel-caption d-none d-md-block">
+						<div class="title">
+							<h1><strong>
+									<span>Why </span>
+									<span class="blue"> SG</br></span>
+									<span class="blue">Money Lender?</span>
+								</strong></h1>
+						</div>
+						<h3>
+							<p id="slide-two-content"></br>We are a reliable licensed money lending company approved by
+								MAS. Our hassle-free service will ensure that you get your cash quickly for your
+								big-ticket purchases!</p>
+						</h3>
+						<button class="apply-loan-carousel" onclick="location.href='applyloan.html';">Apply Now</button>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/missionvision_bg.jpg" class="d-block w-100" alt="page 3">
+					<div id="caption-bg-three" class="carousel-caption d-none d-md-block">
+						<div class="title">
+							<h1><strong>
+									<span>Our </span>
+									<span class="blue">Mission</br></span>
+									<span>and </span>
+									<span class="blue">Vision.</span>
+								</strong></h1>
+						</div>
+						<h3>
+							<p id="slide-three-content"></br>We believe that money should not obstruct you in enjoying
+								your life. Hence, our mission is to enable more people to enjoy a better life using our
+								services.</p>
+						</h3>
+						<button class="learn-more-carousel" onclick="location.href='about.html';">learn more</button>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+	<section id="services">
+		<div class="section-title">
+			<div class="title">
+				<h1>
+					<span class="blue">Loan </span>
+					<span>Types</span>
+				</h1>
+			</div>
+			<div class="caption">
+				<p>We offer lenient loan tenure and low interest rates to as low as 2.27%.</p>
+			</div>
+		</div>
+		<div id="service-types">
+			<div class="row g-4">
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/personalloanimg.jpg" class="card-img-top" alt="Personal Loans">
+						<div class="card-body">
+							<h5 class="card-title">Personal Loans</h5>
+							<p class="card-text">Instant approval and cash disbursement of up to S$50,000 with a low
+								interest rate of 3.4% p.a.. Applicants must be at least 21 years old with a minimum
+								annual income of S$30,000. For Singaporeans and PRs only.</p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/businessLoanImg.jpg" class="card-img-top" alt="Business Loans">
+						<div class="card-body">
+							<h5 class="card-title">Business Loans</h5>
+							<p class="card-text">This loan can be used for your business expansion projects, cash flow
+								issues, asset acquisition, etc. Loan amount can go up to S$500,000 with a low interest
+								rate of 2.6% p.a..</p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/foreignerLoanImg.jpg" class="card-img-top" alt="Foreigner Loans">
+						<div class="card-body">
+							<h5 class="card-title">Foreigner Loans</h5>
+							<p class="card-text">Loan up to S$12,000 with a minimum repayment amount of $200 a month.
+								Only foreigners with an employment pass of 1-year validity and a minimum annual income
+								of S$40,000 are eligible.</p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/educationloanimg.jpg" class="card-img-top" alt="Education Loans">
+						<div class="card-body">
+							<h5 class="card-title">Education Loans</h5>
+							<p class="card-text">Loan up to 90% of your subsidized tuition fees with 0% interest rate
+								during your course of study. Only applicable for Singaporean students in tertiary
+								education.</p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/medicalloanimg.jpg" class="card-img-top" alt="Medical Loans">
+						<div class="card-body">
+							<h5 class="card-title">Medical Loans</h5>
+							<p class="card-text">This loan covers all your medical costs that is not covered by your
+								insurance or Medishield. e.g. Hospitalisation Fees, Medical Tests, Follow-up Visits</p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/weddingloanimg.jpg" class="card-img-top" alt="Wedding Loans">
+						<div class="card-body">
+							<h5 class="card-title">Wedding Loans</h5>
+							<p class="card-text">This loan covers your wedding expenses from your engagement rings to
+								your honeymoon. Borrow up to 6 times your monthly income with no upfront fees.</p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/vacationloanimg.jpg" class="card-img-top" alt="Vacation Loans">
+						<div class="card-body">
+							<h5 class="card-title">Vacation Loans</h5>
+							<p class="card-text">This loan can be used to cover all vacation expenses. Take loans up to
+								6 times your monthly salary with interest rates from as low as 2.27%. No property or
+								assets collateral required. </p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 13rem;">
+						<img src="img/renovationpkgimg.jpg" class="card-img-top" alt="Renovation Packages">
+						<div class="card-body">
+							<h5 class="card-title">Renovation Packages</h5>
+							<p class="card-text">Loan up to 6 times your monthly salary for all renovation expenses.
+								Enjoy attractive interest rate from 3.2% p.a. Loan tenure up to 5 years.</p>
+						</div>
+						<div class="card-footer">
+							<button class="learn-more" onclick="">learn more</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Meet The Crew -->
+	<section id="crew" style="width: 100%;">
+		<div class="section-title">
+			<div class="caption">
+				<p>Meet Us!</p>
+			</div>
+			<div class="title">
+				<h1>
+					<span>The </span>
+					<span class="blue">Crew</span>
+				</h1>
+			</div>
+			<div class="caption">
+				<p>Let us guide you through your financial journey with ease.</p>
+			</div>
+		</div>
+		<div id="crew-member">
+			<div class="row g-1">
+				<div class="col">
+					<div class="crew-card" style="width: 15rem;">
+						<img src="img/AmyLee.png" class="crew-card-img-top" alt="Amy Lee">
+						<div class="card-body">
+							<p class="crew-role">CEO / FOUNDER</p>
+							<h5 class="card-title">Amy Lee</h5>
+							<p class="card-text">10 years of experience in the Finance industry. Sets and executes
+								organisation strategies.</p>
+						</div>
+						<br>
+						<div class="card-footer">
+							<!-- Social Media Handles -->
+							<div>
+								<a href="https://www.facebook.com/AmyLeeOfficial/" target="_blank"><i
+										class="fa-brands fa-facebook-f">&nbsp;&nbsp;</i></a>
+								<a href="https://twitter.com/amyleeev?lang=en" target="_blank"><i
+										class="fa-brands fa-twitter">&nbsp;&nbsp;</i></a>
+								<a href="https://www.linkedin.com/in/amyleemarketing/?originalSubdomain=sg"
+									target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="crew-card" style="width: 15rem;">
+						<img src="img/DerrickLee.png" class="crew-card-img-top" alt="Derrick Lee">
+						<div class="card-body">
+							<p class="crew-role">CONSULTANT</p>
+							<h5 class="card-title">Derrick Lee</h5>
+							<p class="card-text">7 years of experience as a Consultant. Analyses our credit profile and
+								comes up with risk mitigating strategies.</p>
+						</div>
+						<div class="card-footer">
+							<!-- Social Media Handles -->
+							<div>
+								<a href="https://www.facebook.com/derrickleekt" target="_blank"><i
+										class="fa-brands fa-facebook-f">&nbsp;&nbsp;</i></a>
+								<a href="https://mobile.twitter.com/mrlee1455" target="_blank"><i
+										class="fa-brands fa-twitter">&nbsp;&nbsp;</i></a>
+								<a href="https://www.linkedin.com/in/derrickleemy/?originalSubdomain=sg"
+									target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="crew-card" style="width: 15rem;">
+						<img src="img/JaneTan.png" class="crew-card-img-top" alt="Jane Tan">
+						<div class="card-body">
+							<p class="crew-role">LOAN OFFICER</p>
+							<h5 class="card-title">Jane Tan</h5>
+							<p class="card-text">5 years of experience as a Loan Officer. Assists customers with their
+								loan applications.</p>
+						</div>
+						<br>
+						<div class="card-footer">
+							<!-- Social Media Handles -->
+							<div>
+								<a href="https://www.facebook.com/jane.tan.7374" target="_blank"><i
+										class="fa-brands fa-facebook-f">&nbsp;&nbsp;</i></a>
+								<a href="https://twitter.com/printetjane" target="_blank"><i
+										class="fa-brands fa-twitter">&nbsp;&nbsp;</i></a>
+								<a href="https://www.linkedin.com/in/alex-jane-tan-6686a513a/?originalSubdomain=sg"
+									target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="crew-card" style="width: 15rem;">
+						<img src="img/LeoWu.png" class="crew-card-img-top" alt="Leo Wu">
+						<div class="card-body">
+							<p class="crew-role">CONSULTANT</p>
+							<h5 class="card-title">Leo Wu</h5>
+							<p class="card-text">5 years of experience as a Consultant. Accesses customers’ loan
+								eligibility and gives financial advice.</p>
+						</div>
+						<br>
+						<div class="card-footer">
+							<!-- Social Media Handles -->
+							<div>
+								<a href="https://www.facebook.com/people/Leo-Wu/100002954289439/" target="_blank"><i
+										class="fa-brands fa-facebook-f">&nbsp;&nbsp;</i></a>
+								<a href="https://twitter.com/leowulei1226" target="_blank"><i
+										class="fa-brands fa-twitter">&nbsp;&nbsp;</i></a>
+								<a href="https://www.linkedin.com/in/leowu0910/?originalSubdomain=sg" target="_blank"><i
+										class="fa-brands fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<section id="customer-review">
+			<div class="section-title">
+				<div class="caption">
+					<p>Still not convinced?</p>
+				</div>
+				<div class="title">
+					<h1>
+						<span>Customer </span>
+						<span class="blue">Reviews</span>
+					</h1>
+				</div>
+				<div class="caption">
+					<p>We have more than 500 positive reviews from our past customers.</br>Learn more about our brand
+						and services through our customers’ reviews.</p>
+				</div>
+			</div>
+			<div id="comments">
+				<div class="col">
+					<div class="card mb-4">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<div class="customer-image-container">
+									<img src="img/andreaimg.jpg" class="customer-image" alt="Andrea Koh">
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Andrea Koh</h5>
+									<p class="cr-subtitle">
+										<span>2022 NTU GRADUATE&nbsp;</span>
+										<span class="loan-type">EDUCATION LOAN</span>
+									</p>
+									<p class="card-text">I am from a low-income family and was having trouble paying my
+										expensive school fees. I was searching online for the best loan for me to take
+										and repay easily. That was when I chanced upon SG Money Lender. Intrigued by
+										their good interest rate, reputation, and service, I decided to enquire more
+										about the Education Loan. Leo was great in explaining complex terms used and
+										there was no hard-selling. He empathised with my situation and gave me a lot of
+										support during my repayment journey. Thank you for easing my worries so that I
+										can enjoy schooling days!</p>
+									<div class="card-text">
+										<p>
+											<span><strong>5.0&nbsp;</strong></span>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+										</p>
+									</div>
+									<p class="card-text"><small class="text-muted">7 hours ago</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-4">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<div class="customer-image-container">
+									<img src="img/bryanimg.jpg" class="customer-image" alt="Bryan Lim">
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Bryan Lim</h5>
+									<p class="cr-subtitle">
+										<span>CEO OF SGTECH&nbsp;</span>
+										<span class="loan-type">BUSINESS LOAN</span>
+									</p>
+									<p class="card-text">I was a fresh graduate who always had a dream in starting my
+										own tech company. However, I did not have the capital to do so. Through my
+										friend’s recommendation, I approached SG Money Lender for help. Leo was very
+										patient with guiding me through the terms and conditions of the loan, making the
+										process seamless and fuss-free. The interest rate and repayment terms were
+										flexible, allowing me to repay my debt easily. Thank you SG Money Lender for
+										fulfilling my dreams! I would definitely recommend this place to people who are
+										facing financial hardships.</p>
+									<div class="card-text">
+										<p>
+											<span><strong>5.0&nbsp;</strong></span>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+											<i class="bi bi-star-fill"></i>
+										</p>
+									</div>
+									<p class="card-text"><small class="text-muted">1 month ago</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Related Articles -->
+		<section id="articles">
+			<div class="section-title">
+				<div class="title">
+					<h1>
+						<span>Related </span>
+						<span class="blue">Articles</span>
+					</h1>
+				</div>
+				<div class="caption">
+					<p>Build your financial knowledge with us.</p>
+				</div>
+			</div>
+			<div class="article-content">
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100">
+							<img src="img/relatedarticles1.jpeg" class="article-card-img-top"
+								alt="Bank vs Moneylender" />
+							<div class="card-body">
+								<h5 class="card-title">Should I take a personal loan from a bank or a moneylender?</h5>
+								<p class="card-text">
+									Learn more about the pros and cons between taking loans from the bank or licensed
+									moneylenders.
+								</p>
+								<button class="article-white">Read More</button>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">5 min read</small>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="img/relatedarticles2.jpeg" class="article-card-img-top" alt="Wedding" />
+							<div class="card-body">
+								<h5 class="card-title">How much should I spend on my wedding?</h5><br>
+								<p class="card-text">The average wedding costs between S$30,000 to S$50,000 in
+									Singapore.
+									Find out smart ways to save your wedding expenses.
+								</p>
+								<button class="article-white">Read More</button>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">3 min read</small>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="img/relatedarticles3.jpeg" class="article-card-img-top" alt="Loans" />
+							<div class="card-body">
+								<h5 class="card-title">5 ways to pay off your loan early</h5><br>
+								<p class="card-text">
+									Learn how to manage your finances and pay off your debt early.
+								</p>
+								<button class="article-white">Read More</button>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">5 min read</small>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		</section>
+		<!-- Scroll Top -->
+		<a href="#top">
+			<i class="fa-solid fa-caret-up scrolltop"></i>
+		</a>
+		<footer>
+			<small><i>&copy; 2022 by SG Money Lender. All Rights Reserved.</i></small>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"></script>
+</body>
+
+</html>
