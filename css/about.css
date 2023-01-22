@@ -1,0 +1,503 @@
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    color: #000000;
+}
+
+.blue {
+    font-size: 36px;
+    font-family: 'Libre Baskerville', serif;
+    color: #4169E1;
+}
+
+.white {
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Libre Baskerville';
+    font-size: 24px;
+    color: #000000;
+}
+
+.p1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+.p2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.p6 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #4169E1;
+    text-align: center;
+}
+
+.p7 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/* Header */
+/* scrollbar width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C8C8C8;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #BBC8F0;
+}
+
+#header {
+    height: 60px;
+}
+
+#header-move {
+    width: 100%;
+    padding: 0 2% 0 2%;
+    margin: auto;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+#logo {
+    width: 30%;
+    float: left;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+    z-index: 2;
+}
+
+#menu li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#menu a {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.apply-loan {
+    color: #ffffff;
+    background-color: #4169E1;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 16px;
+    border: hidden;
+    border-radius: 7px;
+    padding: 0px 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.apply-loan:hover {
+    color: #4169E1;
+    background-color: #ffffff;
+    outline: 3px solid #4169E1;
+    border-radius: 7px;
+
+}
+
+#menu a:hover::after,
+#menu a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #4169E1;
+    position: absolute;
+    bottom: -4px;
+    left: 30px;
+}
+
+#submit-button:hover {
+    color: #4169E1;
+    background-color: #ffffff;
+    outline: 2px solid #4169E1;
+    border-radius: 30px;
+}
+
+/* Banner */
+.section-intro {
+    height: 228px;
+    padding: 60px 80px 0 80px;
+    background-image: url(img/AboutUs.png);
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.card-img-overlay {
+    top: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 140px;
+    border-radius: 0;
+}
+
+.card.text-bg {
+    border-radius: 0;
+    border: none;
+}
+
+.card-img {
+    border-radius: 0;
+    opacity: 100%;
+}
+
+.form-subtitle {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Background */
+#background {
+    height: 310px;
+    padding: 75px 80px 0 80px;
+    background-color: #E0E6FA;
+}
+
+#background .leftcolumn {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#background .leftcolumn .title {
+    margin-bottom: 20px;
+}
+
+/* Our Story */
+#story {
+    height: 1413px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-title {
+    text-align: center;
+    padding: 70px 0 40px 0;
+}
+
+.leftcolumn2 {
+    float: left;
+    width: 33.3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightcolumn {
+    float: right;
+    width: 66.7%;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#story-content {
+    padding: 0 10%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.story-img {
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#story.card.mb-3.border-0 .col-md-8 {
+    padding: 20px 20px 20px;
+}
+
+#story .card-img {
+    width: 200px;
+}
+
+#story .card-body {
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+.col-md-8 {
+    padding: 15px 10px 10px 10px;
+}
+
+#mission .card-img {
+    border-radius: 0;
+    opacity: 100%;
+}
+
+#mission .card-img-overlay {
+    text-align: center;
+    margin: 10px 10px 10px 135px;
+    padding: 30px 50px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    height: 180px;
+    border-radius: 0;
+}
+
+#vision .card-img {
+    border-radius: 0;
+    opacity: 100%;
+}
+
+#vision .card-img-overlay {
+    text-align: center;
+    top: 0px;
+    margin: 10px 10px 10px 90px;
+    padding: 30px 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 1080px;
+    height: 140px;
+    border-radius: 0;
+}
+
+/* Our Outlets */
+.leftcolumn1 {
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-details {
+    margin-top: 20px;
+}
+
+/* Contact Us */
+#contact {
+    height: 866px;
+    background-image: url(img/brickwall.png);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact-type a {
+    color: #000000;
+}
+
+.leftcolumn3 {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightcolumn1 {
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.emailForm {
+    width: 425px;
+    height: 790px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 45px 56px 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+input {
+    width: 340px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 2px #4169E1;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 340px;
+    height: 130px;
+    border-radius: 20px;
+    border: solid 2px #4169E1;
+    margin-top: 10px;
+}
+
+#submit-button {
+    width: 100px;
+    color: #ffffff;
+    font-weight: 600;
+    border-color: transparent;
+    background-color: #4169E1;
+    border-radius: 25px;
+    margin-left: 240px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+/* ScrollTop */
+.scrolltop {
+    background-color: #4169E1;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #E0E6FA;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* li a:hover, .dropdown:hover .dropbtn {
+    background-color: #4169E1;
+} */
+
+li.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 135px;
+    z-index: 1;
+    left: -20px;
+    padding: 25px 5px 0 4px;
+    width: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: none;
+}
+
+.dropdown-content a p {
+    text-align: center;
+}
+
+.dropdown-content a p:hover {
+    text-align: center;
+    color: #4169E1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
